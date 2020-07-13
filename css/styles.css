@@ -12,6 +12,10 @@ body{
 
     
 }
+button:hover{
+    color: white;
+    cursor: pointer;
+}
 :root{
     --morado : #da90f4;
     --azul :#a0d5ff ;
@@ -24,6 +28,9 @@ a:hover{
     text-decoration:none;
     color:red;
     cursor:pointer;
+}
+i{
+    margin-right: 5px;
 }
 
 .wrapper{
