@@ -1,8 +1,11 @@
 
-const link ='https://www.google.com';
+const linkInsta = 'https://www.instagram.com/saetur.gum/';
+const linkWsp = 'https://api.whatsapp.com/send?phone=573155192405';
 
-function clickwsp(){
-    const btnWsp = document.getElementById('#wsp');
+function clickWsp(){
+    window.location= linkWsp;
+}
 
-    
+function clickInsta(){
+    window.location = linkInsta;
 }
