@@ -13,6 +13,15 @@ html,body{
     --morado : #da90f4;
     --azul :#a0d5ff ;
 }
+a{
+    text-decoration: none ;
+    color: black;
+}
+a:hover{
+    text-decoration:none;
+    color:red;
+    cursor:pointer;
+}
 
 .wrapper{
     min-height: 100%;
@@ -31,14 +40,21 @@ html,body{
      display: flex;
      align-items: center;
      justify-content: center;
-     color: black;
+     
      /* background-color: white; */
      font-size: x-large;
      font-weight: 700;
      background-color: var(--azul);
      font-family: 'Amatic SC', cursive;
      
+     
 }
+.link:hover{
+    color:red;
+    cursor:pointer;
+}
+
+
 li{
     list-style: none;
 }
