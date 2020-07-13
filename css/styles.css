@@ -35,6 +35,8 @@ html,body{
      /* background-color: white; */
      font-size: x-large;
      font-weight: 700;
+     background-color: var(--azul);
+     font-family: 'Amatic SC', cursive;
      
 }
 li{
