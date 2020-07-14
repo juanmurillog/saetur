@@ -5,8 +5,8 @@ html,body{
 body{
     
      padding: 0;
-    margin: 0; 
-    background-image: linear-gradient(to bottom,var(--morado),var(--azul));
+     margin: 0; 
+     background-image: linear-gradient(to bottom,var(--morado),var(--azul)); */
     font-family: 'Amatic SC', cursive;
     background-attachment: fixed;
 
