@@ -105,7 +105,7 @@ ol{
 @media screen and (max-width : 720px){
 
     body{
-        background: url('../assets/candies_cel.png');
+        background: url('../assets/candies_celR.png');
         background-color: var(--morado);
         background-attachment: fixed;
     }
