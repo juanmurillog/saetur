@@ -8,7 +8,7 @@ body{
      padding: 0;
      margin: 0; 
       /* background-image: linear-gradient(to bottom,var(--morado),var(--azul));   */
-     background : url('../assets/candies.png') ;
+     background : url('../assets/candies_opt.png') ;
      background-color: var(--morado);
     font-family: 'Amatic SC', cursive;
     background-attachment: fixed;
