@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Goma";
+    src: url("../assets/goma-cookie.ttf");
+  }
+
+html,body{
+    /* background-image: linear-gradient(to bottom ,var(--azul) ,var(--morado) ); */
+    background-attachment: fixed;
+    height: 100vh;
+    background : url('../assets/candiesr.png') ;
+    background-color: var(--morado);
+    font-family:'Goma';
+}
+.icono{
+    height: 75px;
+    width: 75px;
+}
+p{
+    padding: 0;
+}
+hr{
+    background-color: red;
+}
+:root{
+    --morado : #da90f4;
+    --azul :#a0d5ff ;
+}
+.titulo{
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:black;
+    font-family: 'Indie Flower', cursive;
+}
+.galeria img{
+    margin: 0;
+    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
+    border-radius: 15px;
+    width: 490px;
+    height: 490px;
+}
+.galeria .col{
+   margin-bottom: 20px;
+}
+
+.materialbox-caption {
+
+    bottom: 30px;
+    right: 0;
+    width :40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background:var(--azul);
+    box-shadow: 5px 5px white;
+    font-size: 20px;
+    
+}
+.card{
+    border-radius: 15px;
+}
+
+.price{
+    border: 1px solid gray;
+    border-radius: 15px;
+    background: white;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 475px){
+
+    .materialbox-caption{
+        width: 90%;
+    }
+    .titulo{
+        font-size: 50px;
+        margin: 2.8rem 0 0 0;
+    }
+    /* .galeria img{
+        width: 375px;
+    } */
+}

@@ -9,3 +9,7 @@ function clickWsp(){
 function clickInsta(){
     window.location = linkInsta;
 }
+
+
+
+
