@@ -30,6 +30,7 @@ html,body{
     border-radius: 15px;
     height: 55px;
     width: 200px;
+    margin-bottom: 30px;
 }
 .button-back:hover{
     color: white;
