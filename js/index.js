@@ -10,6 +10,11 @@ function clickInsta(){
     window.location = linkInsta;
 }
 
+function clickProd(){
+
+   window.location.href= './catalogo.html'
+}
+
 
 
 

@@ -15,8 +15,10 @@ html,body{
     height: 75px;
     width: 75px;
 }
-p{
+.informacion{
+    margin: 0;
     padding: 0;
+    align-items: flex-start;
 }
 hr{
     background-color: red;
@@ -62,6 +64,8 @@ hr{
 
 .price{
     font-family: sans-serif;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 @media screen and (max-width: 475px){
