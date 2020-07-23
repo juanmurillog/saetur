@@ -18,6 +18,23 @@ html,body{
     height: 75px;
     width: 75px;
 }
+.icon-back{
+
+    display: none;
+}
+.button-back{
+    background-color: var(--azul);
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    border-radius: 15px;
+    height: 55px;
+    width: 200px;
+}
+.button-back:hover{
+    color: white;
+    background: var(--morado);
+}
 .informacion{
     
     padding: 0;
@@ -86,4 +103,12 @@ hr{
         width: 490px;
         height: 400px;
     } 
+
+    .icon-back{
+        display: inline;
+    }
+    .button-back{
+        display: none;
+    }
+
 }

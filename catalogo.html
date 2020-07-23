@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icono -->
+    <link rel="shortcut icon" href="./assets/sushi2.png" type="image/x-icon">
     <!-- css  -->
     <link rel="stylesheet" href="css/catalogo.css">
     <!-- Iconos -->
@@ -33,7 +35,7 @@
          <div class="col s12 m4 l4 center-align">
             <div class="card animate__animated ">
                 <div class="material-placeholder">
-                  <img class=" materialboxed responsive-img" src="./assets/productos/cajaChina.jpeg">
+                  <img class=" materialboxed responsive-img" src="./assets/productos/cajaChina.jpeg" alt="Caja China">
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Caja China<i class="material-icons right">add_box</i></span>
@@ -51,13 +53,13 @@
         <div class="col s12 m4 l4 center-align">
             <div class="card animate__animated ">
                 <div class="material-placeholder">
-                  <img class=" materialboxed responsive-img" src="./assets/productos/ramen.jpeg">
+                  <img class=" materialboxed responsive-img" src="./assets/productos/ramen.jpeg" alt="Ramen">
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Ramen<i class="material-icons right">add_box</i></span>
                   <p class="price"> $12.000</p>
                 </div>
-                <div class="card-reveal informacion">
+                <div class="card-reveal ">
                   <span class="card-title grey-text text-darken-4">Detalles<i class="material-icons right">close</i></span>
                   <p class="informacion">Variedad de cintas de distintos sabores convertidas en spaguetties, 
                      arriba del ramen te encuentras 2 huevos fritos de goma sabor vainilla 
@@ -69,7 +71,7 @@
         <div class="col s12 m4 l4 center-align">
             <div class="card ">
                 <div class="material-placeholder">
-                  <img class=" materialboxed responsive-img" src="./assets/productos/Agotado.png">
+                  <img class=" materialboxed responsive-img" src="./assets/productos/Agotado.png" alt="sushi">
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Sushi<i class="material-icons right">add_box</i></span>
@@ -83,21 +85,17 @@
         </div>
         <!-- whatever -->
        
-       
-        
-        
-        
-       
-       
     
     </div>  
+
+     <div class="center-align mb-4 " heigth=300px>
+       <button role="link" onclick="clickHome()" class="btn  button-back">Comprar</button>
+     </div>
+
     </main>
-    <div>
-        <a href="index.html"><i class="large material-icons"> keyboard_arrow_left</i></a>
-        
-        
-       
-    </div>
+    <div class="icon-back">
+      <a href="index.html"><i class="large material-icons"> keyboard_arrow_left</i></a>
+   </div>
 
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
      <script src="./js/catalogo.js"></script>

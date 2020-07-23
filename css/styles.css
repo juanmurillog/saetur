@@ -39,13 +39,21 @@ a{
 }
 a:hover{
     text-decoration:none;
-    color:red;
+    color:white;
     cursor:pointer;
 }
 i{
     margin-right: 5px;
 }
-
+.copyrigth{
+    
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+}
 .wrapper{
     
     display: flex;
@@ -74,7 +82,8 @@ i{
      
 }
 .link:hover{
-    color:red;
+    background: var(--morado);
+    color:white;
     cursor:pointer;
 }
 
@@ -108,5 +117,8 @@ ol{
         background: url('../assets/candiesr.png');
         background-color: var(--morado);
         background-attachment: fixed;
+    }
+    .copy{
+        margin-top: 250px;
     }
 }

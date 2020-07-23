@@ -10,3 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
 })
+
+function clickHome(){
+    window.location.href= './index.html'
+}
