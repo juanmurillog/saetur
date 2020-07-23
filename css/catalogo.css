@@ -9,16 +9,20 @@ html,body{
     height: 100vh;
     background : url('../assets/candiesr.png') ;
     background-color: var(--morado);
-    font-family:'Goma';
+   
+}
+.card-title{
+    font-family: Goma;
 }
 .icono{
     height: 75px;
     width: 75px;
 }
 .informacion{
-    margin: 0;
+    
     padding: 0;
-    align-items: flex-start;
+    text-align: left;
+    
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 hr{
