@@ -37,7 +37,7 @@ hr{
     box-shadow: 0 8px 10px -4px rgba(0, 0, 0, .6);
     border-radius: 15px;
     width: 490px;
-    height: 490px;
+    height: 550px;
 }
 .galeria .col{
    margin-bottom: 20px;
@@ -61,10 +61,7 @@ hr{
 }
 
 .price{
-    border: 1px solid gray;
-    border-radius: 15px;
-    background: white;
-    margin-top: 10px;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width: 475px){
@@ -76,7 +73,8 @@ hr{
         font-size: 50px;
         margin: 2.8rem 0 0 0;
     }
-    /* .galeria img{
-        width: 375px;
-    } */
+     .galeria img{
+        width: 490px;
+        height: 400px;
+    } 
 }
